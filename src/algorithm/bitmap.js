@@ -5,7 +5,7 @@
   flag: true or false
 */
 const bitmap = (v, digit, flag) => {
-  const b = 1 << digit;
-  return flag ? (v | b) : (v ^ b);
+    const b = 1 << digit;
+    return flag ? (v | b) : (v ^ b);
 };
 export default bitmap;
